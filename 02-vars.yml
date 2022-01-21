@@ -8,7 +8,7 @@
 #      ansible.builtin.debug:
 #        msg: URL - {{URL}}
 #
-## Since it is a play level variable the scope is completely on all tasks.
+## Since it is a play level variable the scope is completely on all tasks
 #
 #- name: Play for Variable files
 #  hosts: all
