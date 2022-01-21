@@ -9,6 +9,6 @@
   ansible.builtin.get_url:
     url: http://nexus1.roboshop.internal:8081/repository/{{COMPONENT}}/{{COMPONENT}}.{{APP_VERSION}}.zip
     dest: /tmp
-    username: "{{NEXUS_USERNAME}}"
-    password: "{{NEXUS_PASSWORD}}"
+    username: "{{NEXUS3_USERNAME}}"
+    password: "{{NEXUS3_PASSWORD}}"
   when: GIT_DOWNLOAD is not defined
